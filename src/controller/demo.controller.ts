@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@midwayjs/core';
-import { UpdateItemDTO } from '../dto/demo.dto';
+import { UpdateItemDTO } from '../dto/demo.dto.js';
 
 @Controller('/item')
 export class HomeController {

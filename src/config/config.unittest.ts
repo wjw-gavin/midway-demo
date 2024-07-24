@@ -1,7 +1,4 @@
-import { MidwayConfig } from '@midwayjs/core';
 
-export default {
-  koa: {
-    port: null,
-  },
-} as MidwayConfig;
+export const koa = {
+    port: 7001,
+}
